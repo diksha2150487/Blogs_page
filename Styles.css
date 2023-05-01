@@ -121,7 +121,7 @@ body {
   }
 }
 
-/* ********************************************** */
+/* **************** */
 
 * {
   box-sizing: border-box;
@@ -130,8 +130,11 @@ body {
 .blog {
   /* background-color: #ccc; */
   font-family: "Times New Roman", Times, serif;
-  margin: 1rem;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  width: 95%;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bistol {
@@ -144,6 +147,7 @@ body {
 }
 .mb {
   margin-bottom: 1rem;
+  color: gray;
 }
 #head {
   margin-bottom: 1rem;
@@ -178,6 +182,8 @@ body {
   background-size: cover;
   height: 30rem;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid black;
   border-radius: 3px;
 }
@@ -189,36 +195,36 @@ body {
 }
 .mainicon {
   display: flex;
+  padding: 1rem;
 }
 #user {
   display: flex;
-  margin: 1rem;
 }
 #fa-user {
-  padding-top: 5px;
-  padding-right: 1rem;
-  font-size: 1.3rem;
+  margin: 5px;
+  margin-right: 10px;
 }
 #calender {
   display: flex;
-  margin: 1.5rem;
+
   padding-left: 2rem;
 }
 #fa-calender {
-  padding-right: 1rem;
-  font-size: 1.3rem;
+  margin: 5px;
+  margin-right: 10px;
+  /* font-size: 1.3rem; */
 }
 #calender h3 {
   display: flex;
 }
 #three {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
 }
 
-/* ***************************************************** */
+/* ******************* */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
@@ -312,6 +318,7 @@ ul {
 }
 .foot_copy {
   color: #bbbbbb;
+  margin-top: 2rem;
 }
 .footer-col .social-links a {
   display: inline-block;
